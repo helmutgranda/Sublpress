@@ -107,8 +107,8 @@ class WordpressApiCall(threading.Thread):
 		# make sure we don't execute the callback
 		self.result = False
 
-
+'''
 if not ran:
 	sublime.set_timeout(plugin_loaded, 100)
 	ran = True
-
+'''
