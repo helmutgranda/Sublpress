@@ -1,20 +1,20 @@
-# Sublpress2
+# Sublpress
 A Sublime Text 2/3 Plugin to manage WordPress websites. 
 
 This repo is a rebirth of the original Sublpress created by @brzrkr (https://github.com/brzrkr/Sublpress)
 
 ## Description
 
-Sublpress2 is a Sublime Text 2 / 3 plugin to manage WordPress 3.5 installations from within Sublime Text. The mostly quick panel based system allows for managing settings, posts(and custom post types), pages and taxonomy terms of a WordPress blog. 
+Sublpress is a Sublime Text 2 / 3 plugin to manage WordPress 3.5 installations from within Sublime Text. The mostly quick panel based system allows for managing settings, posts(and custom post types), pages and taxonomy terms of a WordPress blog. 
 
-Everything in Sublpress2 is controlled mostly via quick panel. You usually go through a few menus and then a post will open up in a onother tab and any changes you make and then save will be reflected on the blog. The status bar will display a loading indicator and usually a success or failure message depending on an action's result.
+Everything in Sublpress is controlled mostly via quick panel. You usually go through a few menus and then a post will open up in a onother tab and any changes you make and then save will be reflected on the blog. The status bar will display a loading indicator and usually a success or failure message depending on an action's result.
 
 ### Installation
-<strong>1.</strong> Open the command palette in Sublime Text and search for Package Control’s “Install Package” command. From there you should be able to search for “Sublpress2” and have it automatically installed.
+<strong>1.</strong> Open the command palette in Sublime Text and search for Package Control’s “Install Package” command. From there you should be able to search for “Sublpress” and have it automatically installed.
 
 <strong>2. </strong> Clone (or copy the contents of) this repository into your Sublime Text `./Packages` folder:
 
-    git clone https://github.com/helmutgranda/Sublpress2
+    git clone https://github.com/helmutgranda/Sublpress
 
 
 ## Feature List
@@ -27,7 +27,7 @@ Everything in Sublpress2 is controlled mostly via quick panel. You usually go th
 - Change WordPress settings
 
 ## Screenshots
-A few examples of the actions that come with Sublpress2 right now:
+A few examples of the actions that come with Sublpress right now:
 
 <div style="width:50%;float:left;">
 	<h3>Choosing a WordPress Host ("WP: Connect to Site")</h3>

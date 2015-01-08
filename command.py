@@ -89,12 +89,12 @@ class WordpressCommand():
 
 			i += dir
 
-			sublime.active_window().active_view().set_status('sublpress2', 'Sublpress2 [%s=%s]' % (' ' * before, ' ' * after))
+			sublime.active_window().active_view().set_status('sublpress', 'Sublpress [%s=%s]' % (' ' * before, ' ' * after))
 
 			sublime.set_timeout(lambda: self.handle_threads(threads, i, dir), 100)
 			return
 
-		sublime.active_window().active_view().erase_status('sublpress2')
+		sublime.active_window().active_view().erase_status('sublpress')
   
 class WordpressTextCommand():
 	def __init__(self, *args, **kwargs):
@@ -170,9 +170,9 @@ class WordpressTextCommand():
 
 			i += dir
 
-			sublime.active_window().active_view().set_status('sublpress2', 'Sublpress2 [%s=%s]' % (' ' * before, ' ' * after))
+			sublime.active_window().active_view().set_status('sublpress', 'Sublpress [%s=%s]' % (' ' * before, ' ' * after))
 
 			sublime.set_timeout(lambda: self.handle_threads(threads, i, dir), 100)
 			return
 
-		sublime.active_window().active_view().erase_status('sublpress2')
+		sublime.active_window().active_view().erase_status('sublpress')

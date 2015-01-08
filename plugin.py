@@ -14,12 +14,12 @@ else:
 	from wordpress_xmlrpc.methods.users import *
 	import common
 
-package_name = "Sublpress2"
+package_name = "Sublpress"
 package_url = "https://github.com/helmutgranda/hgpress"
 cache_file_name = ".sublime-hgpress.cache"
 
 
-""" Called by Sublime after Sublime has loaded and is ready to load Sublpress2 """
+""" Called by Sublime after Sublime has loaded and is ready to load Sublpress """
 def plugin_loaded():
 	# log commands for debugging  
 	#sublime.log_commands(True)
@@ -48,7 +48,7 @@ def plugin_loaded():
 	global ran
 	ran = True
 
-	#print("Sublpress2 loaded.")
+	#print("Sublpress loaded.")
 
 
 class WordpressManageSites(sublime_plugin.WindowCommand):

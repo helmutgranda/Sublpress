@@ -118,7 +118,7 @@ class WordpressConnectCommand(sublime_plugin.WindowCommand):
 		self.sites = []
 		self.options = [] 
 		
-		# check if we have valid sublpress2 settings, reload if not
+		# check if we have valid sublpress settings, reload if not
 		if common.sp_settings == None:
 			common.sp_settings = sublime.load_settings('Wordpress.sublime-settings')
 		
